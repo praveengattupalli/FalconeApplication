@@ -1,0 +1,9 @@
+{
+  "commitish" : "2.2.5",
+  "iOS" : [
+    {
+      "name" : "SVProgressHUD",
+      "hash" : "9f7523b82916424d57e4365b4f1f7d290e5a7a2c245d0395aa1145b8a8cb2e18"
+    }
+  ]
+}
