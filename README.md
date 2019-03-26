@@ -29,3 +29,10 @@ Finding Falcone Failed:
 --------------
 
 ![image](https://user-images.githubusercontent.com/4753306/55016237-58268c00-5014-11e9-9252-b9347eb34c28.png)
+
+------------------------------------------------------------------------------------------------------
+# Code Setup Instructions:
+1. Install Carthage from https://github.com/Carthage/Carthage
+2. Clone the repository.
+3. Open FalconeApp.xcodeproj in XCode.
+4. Run the application.
