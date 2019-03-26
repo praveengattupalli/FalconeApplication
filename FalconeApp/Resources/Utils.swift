@@ -10,3 +10,7 @@ import Foundation
 
 public typealias SuccessBlock = (_ response: Any?, _ error:Error?) -> Void
 public typealias FailureBlock = (_ response: Any?, _ error:Error?) -> Void
+
+class Constants {
+    static let findFalcone = "Find Falcone"
+}

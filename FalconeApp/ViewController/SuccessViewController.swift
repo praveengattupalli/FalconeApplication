@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+
 class SuccessViewController: UIViewController {
     
     @IBOutlet weak var timeTakenLabel: UILabel!
@@ -26,8 +27,8 @@ class SuccessViewController: UIViewController {
             successLabel.text = "Failed to find Falcone."
         }
         timeTakenLabel.text = timeTaken
-        
-        startAgainButton.addTarget(self, action: #selector(startAgainClicked), for: .touchUpInside)
+        startAgainButton.addTarget(self, action: #selector(startAgainClicked),
+                                   for: .touchUpInside)
     }
     
     @objc func startAgainClicked() {

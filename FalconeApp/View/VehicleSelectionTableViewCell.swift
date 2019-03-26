@@ -19,7 +19,7 @@ class VehicleSelectionTableViewCell: UITableViewCell {
     @IBOutlet weak var selectedButton: UIButton!
     weak var delegate: VehicleSelectionCellDelegate?
     var indexPath: IndexPath?
-    
+
     func configure(selected: Bool, text: String, indexPath: IndexPath,
                    delegate: VehicleSelectionCellDelegate) {
         self.vehicleNameLabel.text = text
@@ -30,17 +30,6 @@ class VehicleSelectionTableViewCell: UITableViewCell {
         self.selectedButton.addTarget(self,
                                       action: #selector(onVehicleSelected),
                                       for: .touchUpInside)
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-        // Configure the view for the selected state
     }
     
     @objc func onVehicleSelected() {

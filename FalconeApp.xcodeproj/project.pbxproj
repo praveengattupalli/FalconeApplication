@@ -11,10 +11,10 @@
 		CC2C5F15222E5D15002AE9D1 /* FindFalconeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C5F14222E5D15002AE9D1 /* FindFalconeResponse.swift */; };
 		CC2C5F1A222E5F15002AE9D1 /* FindFalconeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C5F19222E5F15002AE9D1 /* FindFalconeRequest.swift */; };
 		CC2C5F1E222E9334002AE9D1 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2C5F1D222E9334002AE9D1 /* SVProgressHUD.framework */; };
+		CC68609F22353C0600C62937 /* FalconeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68609E22353C0600C62937 /* FalconeViewPresenter.swift */; };
 		CC6CD47E2230E30E00D704C3 /* AlwaysShowPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CD47D2230E30E00D704C3 /* AlwaysShowPopup.swift */; };
 		CC6CD4852230E41D00D704C3 /* ArrayChoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CD47B2230E2EE00D704C3 /* ArrayChoiceTableViewController.swift */; };
 		CC8F1E61222C094C0087933B /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F1E60222C094C0087933B /* SuccessViewController.swift */; };
-		CCA47F55222A59B000B29B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA47F54222A59B000B29B0F /* AppDelegate.swift */; };
 		CCA47F57222A59B000B29B0F /* FalconeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA47F56222A59B000B29B0F /* FalconeViewController.swift */; };
 		CCA47F5A222A59B000B29B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA47F58222A59B000B29B0F /* Main.storyboard */; };
 		CCA47F5C222A59B100B29B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA47F5B222A59B100B29B0F /* Assets.xcassets */; };
@@ -27,6 +27,9 @@
 		CCA47F92222AD22500B29B0F /* FalconeApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA47F91222AD22500B29B0F /* FalconeApiConstants.swift */; };
 		CCA47F94222AD2A400B29B0F /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA47F93222AD2A400B29B0F /* Vehicle.swift */; };
 		CCA47F9A222AECA800B29B0F /* VehicleSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA47F99222AECA800B29B0F /* VehicleSelectionTableViewCell.swift */; };
+		CCDC5F5522433E5700394D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC5F5422433E5700394D97 /* AppDelegate.swift */; };
+		CCDC5F572243400A00394D97 /* FalconeViewPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC5F562243400A00394D97 /* FalconeViewPresenterTests.swift */; };
+		CCDC5F59224340E400394D97 /* FalconeApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC5F58224340E400394D97 /* FalconeApiTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,11 +66,11 @@
 		CC2C5F14222E5D15002AE9D1 /* FindFalconeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFalconeResponse.swift; sourceTree = "<group>"; };
 		CC2C5F19222E5F15002AE9D1 /* FindFalconeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFalconeRequest.swift; sourceTree = "<group>"; };
 		CC2C5F1D222E9334002AE9D1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		CC68609E22353C0600C62937 /* FalconeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeViewPresenter.swift; sourceTree = "<group>"; };
 		CC6CD47B2230E2EE00D704C3 /* ArrayChoiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayChoiceTableViewController.swift; sourceTree = "<group>"; };
 		CC6CD47D2230E30E00D704C3 /* AlwaysShowPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysShowPopup.swift; sourceTree = "<group>"; };
 		CC8F1E60222C094C0087933B /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		CCA47F51222A59B000B29B0F /* FalconeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalconeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCA47F54222A59B000B29B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCA47F56222A59B000B29B0F /* FalconeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeViewController.swift; sourceTree = "<group>"; };
 		CCA47F59222A59B000B29B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCA47F5B222A59B100B29B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +88,9 @@
 		CCA47F91222AD22500B29B0F /* FalconeApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeApiConstants.swift; sourceTree = "<group>"; };
 		CCA47F93222AD2A400B29B0F /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		CCA47F99222AECA800B29B0F /* VehicleSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		CCDC5F5422433E5700394D97 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCDC5F562243400A00394D97 /* FalconeViewPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeViewPresenterTests.swift; sourceTree = "<group>"; };
+		CCDC5F58224340E400394D97 /* FalconeApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeApiTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +149,19 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		CC68609D22353BFA00C62937 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC68609E22353C0600C62937 /* FalconeViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		CC6CD47A2230E2DC00D704C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				CC6CD47D2230E30E00D704C3 /* AlwaysShowPopup.swift */,
-				CCA47F54222A59B000B29B0F /* AppDelegate.swift */,
+				CCDC5F5422433E5700394D97 /* AppDelegate.swift */,
 				CCA47F86222A676900B29B0F /* Utils.swift */,
 				CCA47F91222AD22500B29B0F /* FalconeApiConstants.swift */,
 				CCA47F58222A59B000B29B0F /* Main.storyboard */,
@@ -188,6 +202,7 @@
 		CCA47F53222A59B000B29B0F /* FalconeApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC68609D22353BFA00C62937 /* Presenter */,
 				CC6CD47C2230E2F600D704C3 /* ServiceManager */,
 				CC6CD47A2230E2DC00D704C3 /* Resources */,
 				CC2C5F18222E5D35002AE9D1 /* ViewController */,
@@ -204,6 +219,8 @@
 			children = (
 				CCA47F69222A59B100B29B0F /* FalconeAppTests.swift */,
 				CCA47F6B222A59B100B29B0F /* Info.plist */,
+				CCDC5F562243400A00394D97 /* FalconeViewPresenterTests.swift */,
+				CCDC5F58224340E400394D97 /* FalconeApiTests.swift */,
 			);
 			path = FalconeAppTests;
 			sourceTree = "<group>";
@@ -380,14 +397,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC68609F22353C0600C62937 /* FalconeViewPresenter.swift in Sources */,
 				CC2C5F13222E5827002AE9D1 /* Token.swift in Sources */,
 				CCA47F94222AD2A400B29B0F /* Vehicle.swift in Sources */,
 				CCA47F87222A676900B29B0F /* Utils.swift in Sources */,
 				CC2C5F1A222E5F15002AE9D1 /* FindFalconeRequest.swift in Sources */,
 				CCA47F57222A59B000B29B0F /* FalconeViewController.swift in Sources */,
 				CCA47F92222AD22500B29B0F /* FalconeApiConstants.swift in Sources */,
-				CCA47F55222A59B000B29B0F /* AppDelegate.swift in Sources */,
 				CCA47F83222A63E300B29B0F /* ServiceManager.swift in Sources */,
+				CCDC5F5522433E5700394D97 /* AppDelegate.swift in Sources */,
 				CC6CD4852230E41D00D704C3 /* ArrayChoiceTableViewController.swift in Sources */,
 				CCA47F90222AD13600B29B0F /* FalconeApi.swift in Sources */,
 				CC2C5F15222E5D15002AE9D1 /* FindFalconeResponse.swift in Sources */,
@@ -402,6 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDC5F59224340E400394D97 /* FalconeApiTests.swift in Sources */,
+				CCDC5F572243400A00394D97 /* FalconeViewPresenterTests.swift in Sources */,
 				CCA47F6A222A59B100B29B0F /* FalconeAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

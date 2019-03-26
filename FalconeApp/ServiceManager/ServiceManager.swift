@@ -8,7 +8,17 @@
 
 import Foundation
 
-class ServiceManager {
+protocol ServiceManagerProtocol: class {
+    func makeGetCall(url: String,
+                     successHandler: @escaping SuccessBlock,
+                     failureHandler: @escaping FailureBlock)
+    
+    func makePostCall(url: String, data: Data?,
+                     successHandler: @escaping SuccessBlock,
+                     failureHandler: @escaping FailureBlock)
+}
+
+class ServiceManager: ServiceManagerProtocol {
     
     func makeGetCall(url: String,
                      successHandler: @escaping SuccessBlock,
@@ -85,13 +95,6 @@ class ServiceManager {
         }
         task.resume()
     }
-    
-    
-    
-    
-    
-    
-    
 }
 
 
